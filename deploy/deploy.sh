@@ -128,7 +128,8 @@ echo Handling node.js deployment, running on .cmd .
 # 1. Select node version
 echo Selecting NodeVersion
 #selectNodeVersion
-NPM_CMD="node /opt/nodejs/10.14.1/bin/npm"
+#NPM_CMD="node /opt/nodejs/10.14.1/bin/npm"
+NPM_CMD="npm"
 #call :SelectNodeVersion
 # 4. KuduSync
 echo Running KuduSync
